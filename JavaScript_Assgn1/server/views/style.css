@@ -1,0 +1,94 @@
+body{
+   
+   font-family: "Times New Roman", Times, serif;
+   background-size: auto;
+}
+
+.header{
+  text-align: center;
+  padding: 20px;
+  word-spacing: 10px;
+  background-color: #A29999;
+}
+
+h1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+  margin-top: 20px;
+}
+
+.left{
+  float: left;
+  width: 300px;
+}
+
+.right{
+  float: right;
+  width: 800px;
+}
+
+.intro, p{
+  font-size: 22px;
+  margin: 25px 25px;
+  
+}
+.center{
+  margin-top: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px 20px;
+  background-color: skyblue;
+  height: 400px;
+  font-size: 22px;
+}
+
+.center-contact{
+  margin-top: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px 20px;
+  background-color: skyblue;
+  height: 750px;
+  font-size: 22px; 
+}
+
+image{
+  height: 300px;
+  width: auto;
+}
+
+footer{
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px 20px;
+  background-color: #FFA500;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;  
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
